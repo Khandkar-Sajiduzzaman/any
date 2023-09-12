@@ -1,5 +1,6 @@
 #Task 1
 Write a function called even_checker that takes a number as an argument and prints whether the number is even or odd inside the function.
+
 def even_checker(n):
     if n%2==0:
        print("Even!!!")
@@ -8,7 +9,7 @@ def even_checker(n):
 even_checker(int(input()))
 
 
-Task 2
+#Task 2
 Write a python function that takes the limit as an argument of the Fibonacci series and prints till that limit.
 
 def fibonacci(n):
