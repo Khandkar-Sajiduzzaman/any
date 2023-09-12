@@ -1,34 +1,16 @@
 #Task 1
 Write a function called even_checker that takes a number as an argument and prints whether the number is even or odd inside the function.
-
-[ ]
-  1
-  2
-  3
-  4
-  5
-  6
 def even_checker(n):
     if n%2==0:
        print("Even!!!")
     else:
        print("Odd!!!")
 even_checker(int(input()))
-4
-Even!!!
+
+
 Task 2
 Write a python function that takes the limit as an argument of the Fibonacci series and prints till that limit.
 
-[ ]
-  1
-  2
-  3
-  4
-  5
-  6
-  7
-  8
-  9
 def fibonacci(n):
    fibo1=0
    fibo2=1
@@ -38,8 +20,7 @@ def fibonacci(n):
         fibo1=fibo2
         fibo2=num
 fibonacci(int(input("Enter the number: ")))
-Enter the number: 10
-0 1 1 2 3 5 8 
+ 
 Task 3
 Write a function called foo_moo that takes a number as an argument and returns the following statements according to the below mentioned conditions. Then, finally prints the statement in the function call.
 def foo_moo(n):
